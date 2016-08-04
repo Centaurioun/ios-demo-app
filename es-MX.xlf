@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="global" datatype="plaintext" source-language="en" target-language="es-MX">
+    <body>
+      <trans-unit id="hello_world">
+        <source xml:lang="en">Hello %s!</source>
+        <target xml:lang="es-MX">Cabron %s, que pasa </target>
+      </trans-unit>
+      <trans-unit id="points_gained">
+        <source xml:lang="en">You have gained %d points!</source>
+        <target xml:lang="es-MX">mexican Has ganado %d puntos!</target>
+      </trans-unit>
+      <trans-unit id="with_linebreak">
+        <source xml:lang="en">this is a text with 
+linebreaks</source>
+        <target xml:lang="es-MX">mexican se trata de un texto 
+con saltos de línea &lt;nueva línea&gt;</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
