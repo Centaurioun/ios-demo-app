@@ -5,7 +5,14 @@ phraseapp:
   pull:
     params: {format_options: { convert_placeholder : true } }
     targets:
+    - file: ./en.lproj/<locale_name>.strings
+      params: {locale_id: xxx}
     - file: ./de.lproj/<locale_name>.strings
+      params: {locale_id: xxx}
+    - file: ./es.lproj/<locale_name>.strings
+      params: {locale_id: xxx}
+    - file: ./es-MX.lproj/<locale_name>.strings
+      params: {locale_id: xxx}
   push:
     sources:
     - file: ./<locale_name>.strings
