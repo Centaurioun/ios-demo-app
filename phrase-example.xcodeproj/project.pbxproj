@@ -15,6 +15,7 @@
 		225AE1D51D538A08002374EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225AE1D31D538A08002374EC /* Main.storyboard */; };
 		225AE1D71D538A08002374EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225AE1D61D538A08002374EC /* Assets.xcassets */; };
 		225AE1DA1D538A08002374EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225AE1D81D538A08002374EC /* LaunchScreen.storyboard */; };
+		22E5F4D81D58E38E00310DDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22E5F4D71D58E38E00310DDC /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		227FEC6E1D538EC500BBC45D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		227FEC6F1D538ECA00BBC45D /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
 		227FEC701D538ECA00BBC45D /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		22E5F4D71D58E38E00310DDC /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		225AE1C91D538A08002374EC /* phrase-example */ = {
 			isa = PBXGroup;
 			children = (
+				22E5F4D71D58E38E00310DDC /* InfoPlist.strings */,
 				220091321D53A4AE00FB0C0B /* InfoPlist.strings */,
 				220091311D53A4AE00FB0C0B /* Localizable.strings */,
 				227FEC711D538F6200BBC45D /* i18n */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				225AE1DA1D538A08002374EC /* LaunchScreen.storyboard in Resources */,
+				22E5F4D81D58E38E00310DDC /* InfoPlist.strings in Resources */,
 				2200912F1D53A4AE00FB0C0B /* Localizable.strings in Resources */,
 				225AE1D71D538A08002374EC /* Assets.xcassets in Resources */,
 				225AE1D51D538A08002374EC /* Main.storyboard in Resources */,

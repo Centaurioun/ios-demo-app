@@ -1,0 +1,11 @@
+phraseapp:
+  access_token: c6af0d13f32ab22664ae2ec2b0cf0c6d314fd4feb164987243fc164362e92c62
+  project_id: 2efd2a34f3dfc629fefeb1e2dc117547
+  file_format: strings
+  pull:
+    params: {format_options: { convert_placeholder : true } }
+    targets:
+    - file: ./de.lproj/<locale_name>.strings
+  push:
+    sources:
+    - file: ./<locale_name>.strings
