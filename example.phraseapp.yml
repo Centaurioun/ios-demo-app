@@ -1,18 +1,18 @@
 phraseapp:
-  access_token: c6af0d13f32ab22664ae2ec2b0cf0c6d314fd4feb164987243fc164362e92c62
-  project_id: 2efd2a34f3dfc629fefeb1e2dc117547
+  access_token: xxx
+  project_id: xxx
   file_format: strings
   pull:
     params: {format_options: { convert_placeholder : true } }
     targets:
-    - file: ./en.lproj/<locale_name>.strings
+    - file: ./en.lproj/Localizable.strings
       params: {locale_id: xxx}
-    - file: ./de.lproj/<locale_name>.strings
+    - file: ./de.lproj/Localizable.strings
       params: {locale_id: xxx}
-    - file: ./es.lproj/<locale_name>.strings
+    - file: ./es.lproj/Localizable.strings
       params: {locale_id: xxx}
-    - file: ./es-MX.lproj/<locale_name>.strings
+    - file: ./es-MX.lproj/Localizable.strings
       params: {locale_id: xxx}
   push:
     sources:
-    - file: ./<locale_name>.strings
+    - file: ./en.lproj/Localizable.strings
