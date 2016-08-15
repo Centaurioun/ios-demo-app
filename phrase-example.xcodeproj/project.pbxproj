@@ -110,6 +110,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 225AE1DE1D538A08002374EC /* Build configuration list for PBXNativeTarget "phrase-example" */;
 			buildPhases = (
+				22577F1F1D61AC6A00DA59F8 /* ShellScript */,
 				225AE1C31D538A08002374EC /* Sources */,
 				225AE1C41D538A08002374EC /* Frameworks */,
 				225AE1C51D538A08002374EC /* Resources */,
@@ -170,6 +171,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22577F1F1D61AC6A00DA59F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "phraseapp pull";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		225AE1C31D538A08002374EC /* Sources */ = {
